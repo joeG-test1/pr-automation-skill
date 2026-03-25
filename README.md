@@ -68,7 +68,6 @@ The skill lives inside the `.claude/skills/` directory at the project root:
 ```
 .claude/skills/pr-streamline/
 ├── SKILL.md                              # Skill definition (YAML frontmatter + docs)
-├── TEST_RESULTS.md                       # Test report from 2026-03-13
 ├── scripts/
 │   └── generate-pr-description.py        # Main Python script
 ├── references/
@@ -429,5 +428,4 @@ parser.add_argument(
 
 - `SKILL.md` -- Skill definition and usage documentation
 - `references/pr-template-guide.md` -- Comprehensive guide with examples for each PR section
-- `TEST_RESULTS.md` -- Test results from 2026-03-13 (Python 3.14.3, all 5 tasks passed)
 - [Agent Skills open standard](https://agentskills.io) -- The standard that Claude Code skills follow
